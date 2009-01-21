@@ -24,8 +24,7 @@ class ResourceFactoryTest < Test::Unit::TestCase
     should "contain the attributes inside the root" do
       book = ResourceFactory.build(:nonfiction_book)
       assert_match /<name>#{book.attributes[:name]}<\/name>/, book.to_xml
-      
     end
+    
   end
-  
 end
