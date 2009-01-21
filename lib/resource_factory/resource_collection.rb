@@ -8,7 +8,7 @@ class ResourceCollection < Array
   def to_xml
     if self.size > 0
       resource_name = "#{self[0].factory_name.pluralize.dasherize}"
-      "<#{resource_name}>" +
+      "<#{resource_name} type=\"Array\">" +
       self.collect{|i| i.to_xml}.join("\r\n") +
       "</#{resource_name}>"
     end

@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.date = %q{2009-01-21}
   s.description = %q{}
   s.email = %q{josh@technicalpickles.com}
-  s.files = ["README.textile", "VERSION.yml", "lib/resource_factory.rb", "test/lib", "test/lib/resource_factory_test.rb", "test/test_helper.rb"]
+  s.files = ["README.textile", "VERSION.yml", "lib/resource_factory", "lib/resource_factory/resource_collection.rb", "lib/resource_factory/resource_factory.rb", "lib/resource_factory.rb", "test/lib", "test/lib/resource_collection_test.rb", "test/lib/resource_factory_test.rb", "test/test_helper.rb"]
   s.homepage = %q{http://github.com/dpickett/resource_factory}
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.1}
