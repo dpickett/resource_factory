@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{resource_factory}
-  s.version = "0.5.0"
+  s.version = "0.5.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dan Pickett"]
-  s.date = %q{2009-01-21}
+  s.date = %q{2009-01-22}
   s.description = %q{}
   s.email = %q{josh@technicalpickles.com}
   s.files = ["README.textile", "VERSION.yml", "lib/resource_factory", "lib/resource_factory/resource_collection.rb", "lib/resource_factory/resource_factory.rb", "lib/resource_factory.rb", "test/lib", "test/lib/resource_collection_test.rb", "test/lib/resource_factory_test.rb", "test/test_helper.rb"]
